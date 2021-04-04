@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:groovy-20210325
 WORKDIR /home/weave
 ADD ./qotd /home/weave/
 EXPOSE 4446
