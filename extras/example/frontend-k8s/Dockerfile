@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:groovy-20210416
 RUN apt-get update && \
   apt-get install -y nginx && \
   rm -rf /var/lib/apt/lists/*
