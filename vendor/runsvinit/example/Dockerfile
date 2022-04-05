@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.15.4
 RUN echo "http://dl-3.alpinelinux.org/alpine/edge/testing" >>/etc/apk/repositories && \
     apk add --update runit && \
     rm -rf /var/cache/apk/*
